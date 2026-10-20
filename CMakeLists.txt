@@ -39,7 +39,7 @@ endif()
 include(boards/modxo_pinout.cmake)
 
 add_compile_definitions(PICO_CLOCK_ADJUST_PERI_CLOCK_WITH_SYS_CLOCK=1)
-add_compile_definitions(PICO_FLASH_SPI_CLKDIV=6)
+add_compile_definitions(PICO_FLASH_SPI_CLKDIV=2)
 
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
